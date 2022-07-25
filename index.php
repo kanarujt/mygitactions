@@ -1,8 +1,8 @@
 <?php
 
-function greeting(): string
+function greeting(string $name): string
 {
-  return "Hello";
+    return "Hello {$name}";
 }
 
-echo greeting();
+echo greeting("Joe!");
