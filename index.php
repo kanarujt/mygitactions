@@ -1,6 +1,6 @@
 <?php
 
-function greeting() : string
+function greeting(): string
 {
   return "Hello";
 }
